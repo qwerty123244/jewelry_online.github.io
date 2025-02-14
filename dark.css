@@ -91,15 +91,13 @@ article img {
   border-radius: 8px; /* Добавляет скругление */
 }
 @media screen and (max-width: 768px) {
-  /* Адаптация кнопки меню */
   .menu-btn {
-    font-size: 15px;
+    font-size: 24px;
     padding: 12px;
     top: 10px;
     left: 10px;
   }
 
-  /* Адаптация кнопки смены стиля */
   .style-button {
     position: fixed;
     top: 10px;
@@ -114,7 +112,6 @@ article img {
     z-index: 1001;
   }
 
-  /* Сайд-меню на мобильных устройствах */
   .side-nav {
     width: 0;
     max-width: 250px;
@@ -125,7 +122,6 @@ article img {
     padding: 15px;
   }
 
-  /* Оптимизация контента */
   main {
     padding: 10px;
   }
@@ -136,10 +132,12 @@ article img {
   }
 
   article img {
-    width: 90%; /* Делаем изображения адаптивными */
+    width: 90%;
     max-width: 300px;
     height: auto;
     border-radius: 10px;
+    display: block;
+    margin: 0 auto;
   }
 
   h2, h3 {
